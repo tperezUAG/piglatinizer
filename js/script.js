@@ -23,5 +23,18 @@ $( document ).ready(function() {
 // Create the sentenceToPigLatin function that takes a sentence as a parameter
 	//Loops through all the words in the sentence and transforms each word
 	//It should return a transfromed sentance
+function sentenceToPigLatin(sentence){
+	var words = sentence.split(' ');
+	
+}
 
+function ayAdder(newWord, extra) {
+	if (extra == 0) {
+		return newWord + "ay"
+	}
+}
+
+function wordIteration(newWords) {
+	
+}
 
